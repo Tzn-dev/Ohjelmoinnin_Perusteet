@@ -29,7 +29,7 @@ print(Sentence[::-1]) #Lause takaperin
 
 #print(name + " " + str(age))
 
-num1 = int[input("Anna luku 1 ")] #määrittää että on input on int
+num1 = int[input("Anna luku 1 ")] #määrittää, että on input on int
 num2 = input("Anna luku 2 ")
 
 num3 = num1 + int(num2) #tarvitsee int() jos ei oo aikasemmin sitä määritetty
