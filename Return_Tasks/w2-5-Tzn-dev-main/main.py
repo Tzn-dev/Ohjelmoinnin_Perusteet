@@ -32,3 +32,5 @@ Step = int(input("3) Step size: "))
 print(f"The word '{compound_word}' sliced to the defined substring is '{compound_word[Start:End:Step]}'.")
 #Program ending.
 print("Program ending.")
+
+
