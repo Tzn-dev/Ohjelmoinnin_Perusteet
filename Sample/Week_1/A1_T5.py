@@ -1,6 +1,0 @@
-print("Calculate the area of a wall.")
-Width = input("Enter the width in meters: ")
-Height = input("Enter the heightin meters: ")
-print("Width is", Width,"m and height is", Height,"m.")
-Area = int(Height) * int(Width)
-print("The wall will be", Area, "square meters.")
