@@ -1,5 +1,4 @@
 #Make a Python program, which prompts for a compound word.
-
 #    Get following aspects from the word
 #        Length
 #        First character

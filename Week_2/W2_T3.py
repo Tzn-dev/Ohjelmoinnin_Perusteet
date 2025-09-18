@@ -1,7 +1,5 @@
 #Make Python program, which prompts user to insert two words. Print the length of each word and then compound them together. Put single quotes around the compound word.
-
 #Example program run:
-
 #Program starting.
 print("Program starting.")  
 #Insert first word: fire

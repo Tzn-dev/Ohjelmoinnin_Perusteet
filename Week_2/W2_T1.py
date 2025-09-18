@@ -1,7 +1,6 @@
 # Make a Python program, which prompts the user name and two floating numbers.
 # Multiply the inserted numbers to get product. Round the product in two decimal precision.
 # Complete the program output as shown below.
-
 #Example program run:
 
 #Program starting.

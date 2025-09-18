@@ -2,9 +2,7 @@
 # Calculate the sum and the average.
 # Display those in the example program run format(Note! precision).
 # Make sure to calculate the required average for two decimal digits and later integer as rounded integer (precision 0 + type conversion).
-
-#Example program run:
-
+# Example program run:
 #Program starting.
 print("Program starting.")
 #Estimate how many minutes you spent on programming...
@@ -16,7 +14,7 @@ Task_3 = int(input("A1_T3: "))
 Task_4 = int(input("A1_T4: "))   
 Task_5 = int(input("A1_T5: "))   
 Task_6 = int(input("A1_T6: "))   
-Task_7 = int(input("A1_T7: "))      
+Task_7 = int(input("A1_T7: "))    
 #A1_T2: 7
 #A1_T2: 7
 #A1_T3: 9
