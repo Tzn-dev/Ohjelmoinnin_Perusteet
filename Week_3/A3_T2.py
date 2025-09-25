@@ -1,0 +1,34 @@
+#Make Python program which does the following steps:
+
+#    Prompt user to insert
+#        A word
+#        A character
+#    Find if the character exists in the word. Possible prints below.
+#        Word "{WordFirst}" contains character "{Character}"
+#        Word "{WordFirst}" doesn't contain character "{Character}"
+#    Prompt user to insert one more word
+#    Compare the first word to the second word. Examples below:
+#        The first word "{WordFirst}" is before the second word "{WordSecond}" alphabetically.
+#        The second word "{WordSecond}" is before the first word "{WordFirst}" alphabetically.
+#        Both inserted words are the same alphabetically, "{WordFirst}"
+
+#Example program run
+
+#Program starting.
+print("Program starting.")
+#String comparisons
+print("String comparisons")
+#Insert first word: beans
+Word1 = input("Insert first word: ")
+#Insert a character: n
+Char = input("Insert a character:")
+#Word "beans" contains character "n"
+if(Char in Word1):
+    print(f"Word \"{Word1}\" contains character \"{Char}\"")
+else:
+    print(f"Word \"{Word1}\" doesn't contain character \"{Char}\"")
+#Insert second word: banana
+Word2 = input("Insert second word: ")
+#The second word "banana" is before the first word "beans" alphabetically.
+
+#Program ending.
