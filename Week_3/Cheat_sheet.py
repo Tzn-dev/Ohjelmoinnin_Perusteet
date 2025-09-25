@@ -53,16 +53,19 @@
 #elif not(Town == "Lahti" and Street == "Mulkkulakatu" and Building == 19):
 #    print("You are lost...")
 
-import random
+#import random
 
 #print(random.random())
-print(random.randint(1,6))
+#print(random.randint(1,6))
 
 # Tehtävä, tee yksin kertainnen kivi, sakset, paperi peli random -metodia käyttäen.
 import random
-pelaaja=int(input("Pelataan Kivi paperi sakset. \n1 - Kivi \n2 - Paperi\n3 - Sakset\n"))
-vastustaja= random.randint(1,3)
+pelaaja=int(input("Pelataan Kivi paperi sakset. \Anna valintasi:\n1 - Kivi\n2 - Paperi\n3 - Sakset\n"))
+vastustaja=random.randint(1,3)
 print(f"pelasit {pelaaja}, vastutajasi pelasi {vastustaja}:")
 if pelaaja==vastustaja:
     print("tasapeli")
-elif 
+elif (pelaaja==1 and vastustaja==3) or (pelaaja==2 and vastustaja==1) or (pelaaja==3 and vastutaja==2):
+    print("Sinä voitit")
+else:
+    print("Vastutaja voitti")
