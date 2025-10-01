@@ -30,5 +30,11 @@ else:
 #Insert second word: banana
 Word2 = input("Insert second word: ")
 #The second word "banana" is before the first word "beans" alphabetically.
-
+if(Word1 < Word2):
+    print(f"The first word \"{Word1}\" is before the second word \"{Word2}\" alphabetically.")
+elif(Word1 > Word2):
+    print(f"The second word \"{Word2}\" is before the first word \"{Word1}\" alphabetically.")
+else:
+    print(f"Both inserted words are the same alphabetically, \"{Word1}\"")
 #Program ending.
+print("Program ending.")
