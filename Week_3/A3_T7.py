@@ -1,36 +1,40 @@
 #Program starting.
 print("Program starting.")
-##Testing decision structures.
 print("Testing decision structures.")
-Num = int(input("Insert an integer: "))
-print("Options:\n 1 - In one multi-branched decision\n 2 - In multiple independent if-statements\n 0 - Exit")
-#Insert an integer: 250
-Choice = int(input("Your choice: "))
+
+Feed = input("Insert an integer: ")
+Value = int(Feed)
+
+print("Options:")
+print("1 - In one multi-branched decision")
+print("2 - Independent if-statement decisions")
+print("0 - Exit")
+
+Feed = input("Your choice: ")
+Choice = int(Feed)
+
 if Choice ==1:
     print("Using one multi-branched decision structure.")
-    if Num >= 400:
-        Num = Num + 44
-    elif Num >= 200:
-        Num = Num + 22
-    elif Num >= 100:
-        Num = Num + 11
-    print(f"Result is {Num}")
-#Using multiple independent if-statements structure.
+    if Value >= 400:
+        Value += 44
+    elif Value >= 200:
+        Value += 22 
+    elif Value >= 100:
+        Value += 11
+    print(f"Result is {Value}")
 elif Choice ==2:
     print("Using multiple independent if-statements structure.")
-    if Num >= 400:
-        Num = Num + 44
-    if Num >= 200:
-        Num = Num + 22
-    if Num >= 100:
-        Num = Num + 11
-    print(f"Result is {Num}")
-#Exiting... 0
+    if Value >= 400:
+        Value += 44
+    if Value >= 200:
+        Value += 22 
+    if Value >= 100:
+        Value += 11
+    print(f"Result is {Value}")
 elif Choice ==0:
     print("Exiting...")
-#Unknown option.
 else:
     print("Unknown option.")
-#Program ending.
-print("\nProgram ending.")
+    
+print("Program ending.")
 
