@@ -13,7 +13,7 @@
 
 #Example program runs
 
-#rogram starting.
+#Program starting.
 
 #heck multiplicative persistence.
 #Insert an integer: 277777788888899
@@ -34,4 +34,17 @@
 
 #Program ending.
 
-
+#Pyydä arvo ja muuta se integeriksi
+#Alusta muuttuja, joka laskee kierroksia
+#Tee While loop, joka looppaa, niin kauan kun arvo ei ole 0
+#    Testaa onko arvo pienempi kuin 10 > break
+#    Muuta arvo integeriksi, jotta saaammme yksittäiset numerot esiin
+#    Tee for loop joka käy läpi jokaisen stringiksi muutetun luvun
+#        Testaa , onko numero viimeinen
+#        Tee laskutoimitus
+#    printtaa kertolaskun tulos
+#    Muuta arvoksi edellisen kierroksen kertolaskun tulos
+#   Jos arvo on nolla, printtaa No more steps
+#    Lisää kierroslaskuriin +1
+#printtaa kierrokset "This program took kierrokset step(s)"
+#printtaa program ending

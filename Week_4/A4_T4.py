@@ -1,18 +1,18 @@
-#Make a program, which prompts user to insert words. Program must stop prompting words if user inserts empty word. After stopping the repetitive prompt, print the amount of words and characters that the user inserted.
+print("Program starting.")
+print("")
+WordCount = 0
+Charcount = 0
 
-#Example program run:
+Word = input("Insert word (empty stops):")
+while Word != '':
+    WordCount += 1
+    Charcount += len(Word)
+    Word = input("Insert word (empty stops):")
 
-#Program starting.
-
-#Insert word (empty stops): Close
-#Insert word (empty stops): the
-#Insert word (empty stops): loop
-#Insert word (empty stops): 
-
-#You inserted:
-#- 3 words
-#- 12 characters
-
-#Program ending.
-
+print("")
+print("You inserted:")
+print(f"- {WordCount} words")
+print(f"- {Charcount} characters")
+print("")
+print("Program ending.")
 

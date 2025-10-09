@@ -16,4 +16,27 @@
 
 #Program ending.
 
+# Tee muuttuja ,joka laskee kierrokset
+# Muuta annettu arvo integeriksi
+# Arvo muuttuu luupin aikana.
+# Tee while -loop, joka looppaa niin kaun, kuin arvo ei ole 1
+    #printtaa alkuperäinen arvo ja lisää loppuun nuoli ->
+    #testaa onko arvo parillinen
+        #jaa arvo kahdella
+    #muussa tapauksessa
+        #kerro arvo kolmella ja lisää yksi
+    #Lisää kierroksiin +1
+#printtaa 1 loppuun
+#printtaa kierrokset
 
+
+print("Program starting.")
+inp = input("Insert a positive integer: ")
+value = int(inp)
+    if value%2 = 2
+    else:
+        value*3 
+        if = value%2 = 2
+            
+    
+print("Program ending.")
