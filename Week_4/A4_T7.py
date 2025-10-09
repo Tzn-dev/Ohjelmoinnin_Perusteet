@@ -9,6 +9,7 @@
 
 #In short, the steps in the multiplicative persistency is calculated by multiplying digits together in a given integer. This process is then repeated for the result which makes the result value smaller on each iteration till the result contains only one digit.
 
+
 #The program must stop the iteration when the result contains only one digit. Finally before the program closes, it shows the steps taken.
 
 #Example program runs

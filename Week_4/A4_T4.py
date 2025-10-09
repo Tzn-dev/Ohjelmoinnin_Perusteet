@@ -15,4 +15,3 @@ print(f"- {WordCount} words")
 print(f"- {Charcount} characters")
 print("")
 print("Program ending.")
-
