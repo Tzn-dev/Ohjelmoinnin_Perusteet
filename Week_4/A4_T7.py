@@ -30,6 +30,6 @@ while number > 9:
 # No more steps.
 print("No more steps.")
 # This program took x step(s)
-print(f"This program took {step_count} step(s)")
+print(f"\nThis program took {step_count} step(s)")
 # Program ending.
-print("\n\nProgram ending.")
+print("\nProgram ending.")
