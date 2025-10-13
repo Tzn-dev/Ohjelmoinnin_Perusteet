@@ -7,11 +7,28 @@
 #Example program runs
 
 #Program starting.
+print("Program starting.\n")
 
 #Insert starting value: 1
+start = int(input("Insert starting value: "))
 #Insert stopping value: 10
-
+stop = int(input("Insert stopping value: "))
 #Starting for-loop:
+print("\nStarting for-loop:")
 #1 2 3 4 5 6 7 8 9 10
-
+if start < stop:
+    for i in range(start, stop + 1):
+        if i != stop:
+            print(i, end=" ")
+        else:
+            print(i, end="")
+elif start > stop:
+    for i in range(start, stop - 1, -1):
+        if i != stop:
+            print(i, end=" ")
+        else:
+            print(i, end="")
+else:
+    print(start, end="")
 #Program ending.
+print("\n\nProgram ending.")

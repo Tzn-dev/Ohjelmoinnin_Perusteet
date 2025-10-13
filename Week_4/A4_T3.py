@@ -5,11 +5,20 @@
 #Example program runs
 
 #Program starting.
+print("Program starting.\n")
 
 #Insert starting value: 1
+start = int(input("Insert starting value: "))
 #Insert stopping value: 10
+stop = int(input("Insert stopping value: "))
 
 #Starting while-loop:
+print("\nStarting while-loop:")
 #1 2 3 4 5 6 7 8 9 10
+value = start
+while value <= stop:
+    print(value, end=" ")
+    value += 1
 
 #Program ending.
+print("\n\nProgram ending.")
