@@ -22,11 +22,34 @@
 
 # Program starting.
 # Insert word: Beautiful
-
+#
 # *************
 # * Beautiful *
 # *************
-
+#
 # Program ending.
 
+def main():
+    # Program starting.
+    print("Program starting.")
+    print() #
+    # Insert word:
+    word = input("Insert word: ")
+    frameWord(word)
+    print() #
+    # Program ending.
+    print("Program ending.")
+    return None
+
+def frameWord(PWord):
+    border = "*" * (len(PWord) + 4)
+    # *************
+    print(border)
+    #* word *
+    print(f"* {PWord} *")
+    # *************
+    print(border)
+    return None
+
+main()
 

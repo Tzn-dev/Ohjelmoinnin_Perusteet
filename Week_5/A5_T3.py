@@ -20,4 +20,25 @@
 # Hello John!
 # Program ending.
 
+def main():
+    # Program starting.
+    print("Program starting.")
+    # Insert name: 
+    name = askname()
+    # Hello Name!
+    greetUser(name)
+    # Program ending.
+    print("Program ending.")
+    return None
 
+def askname():
+    # Insert name: 
+    name = input("Insert name: ")
+    return name
+
+def greetUser(PName):
+    # Hello Name!
+    print(f"Hello {PName}!")
+    return None
+
+main()
