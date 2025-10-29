@@ -1,52 +1,60 @@
-#Create a menu-driven Python program with following options:
+def display_menu():
+    print("Options:")
+    print("1 - Insert word")
+    print("2 - Show current word")
+    print("3 - Show current word in reverse")
+    print("0 - Exit")
 
-#    Insert a word
-#        Which stores user inserted word into memory.
-#    Show current word
-#        Prints the word from the memory
-#    Show current word in reverse
-#        Prints the word from the memory in reverse.
-#    Exit
-#        Stops the program gracefully
-#    Unknown option
+def insert_word():
+    word = input("Insert word: ")
+    print()
+    return word
 
-# Initialize the Word with an empty string.
+def show_word(word):
+    if word == "":
+        print('Current word - ""')
+    else:
+        print(f'Current word - "{word}"')
+    print()
 
-# Example program runs
+def show_reversed_word(word):
+    if word == "":
+        print('Word reversed - ""')
+    else:
+        print(f'Word reversed - "{word[::-1]}"')
+    print()
 
-# Program starting.
-# Options:
-# 1 - Insert word
-# 2 - Show current word
-# 3 - Show current word in reverse
-# 0 - Exit
-# Your choice: 1
-# Insert word: Banana
+def main():
+    current_word = ""
 
-# Options:
-# 1 - Insert word
-# 2 - Show current word
-# 3 - Show current word in reverse
-# 0 - Exit
-# Your choice: 2
-# Current word - "Banana"
+    print("Program starting.")
+    
+    while True:
+        display_menu()
+        choice = input("Your choice: ").strip()
+        print()
+        
+        if choice == "1":
+            current_word = insert_word()
+        
+        elif choice == "2":
+            show_word(current_word)
+        
+        elif choice == "3":
+            show_reversed_word(current_word)
+        
+        elif choice == "0":
+            print("Exiting program.")
+            break
+        
+        else:
+            print("Unknown option! try again.")
+            print()
+    
+    print("Program ending.")
 
-# Options:
-# 1 - Insert word
-# 2 - Show current word
-# 3 - Show current word in reverse
-# 0 - Exit
-# Your choice: 3
-# Word reversed - "ananaB"
 
-# Options:
-# 1 - Insert word
-# 2 - Show current word
-# 3 - Show current word in reverse
-# 0 - Exit
-# Your choice: 0
-# Exiting program.
-
-# Program ending.
+if __name__ == "__main__":
+    main()
 
 
